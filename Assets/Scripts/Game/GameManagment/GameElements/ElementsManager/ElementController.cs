@@ -16,7 +16,8 @@ namespace Game
         }
         public void ProcessSpecs()
         {
-
+            var fff = new System.Random();
+            int num = fff.Next(3,30);
         }
 
     }

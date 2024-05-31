@@ -19,7 +19,7 @@ namespace App
             }
         }
         #endregion
-
+        
 
         public static event Action OnDisableCamAndLight;
         public static void DisableCamAndLight()

@@ -26,5 +26,12 @@ namespace Game
                 Destroy(Elements[i].prefab);
             }
         }
+
+        public void fsdf()
+        { Elements.Clear(); 
+            while (Elements.Count > 0) { print("one  "); }
+            
+        }        
+
     }
 }
